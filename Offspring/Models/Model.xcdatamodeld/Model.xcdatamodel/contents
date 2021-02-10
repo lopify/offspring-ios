@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D64" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Event" representedClassName="Event" syncable="YES" codeGenerationType="class">
+        <attribute name="amount" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="comment" optional="YES" attributeType="String"/>
+        <attribute name="end_date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="start_date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="EventCategory" representedClassName="EventCategory" syncable="YES" codeGenerationType="class">
+        <attribute name="color" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="EventType" representedClassName="EventType" syncable="YES" codeGenerationType="class">
+        <attribute name="amount_suffix" optional="YES" attributeType="String"/>
+        <attribute name="icon" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="show_amount" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="show_end_date" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Offspring" representedClassName="Offspring" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Event" positionX="333" positionY="-9" width="128" height="89"/>
+        <element name="EventCategory" positionX="149.45703125" positionY="96.23046875" width="128" height="59"/>
+        <element name="EventType" positionX="577.60546875" positionY="-205.58203125" width="128" height="104"/>
+        <element name="Offspring" positionX="28.2265625" positionY="-184.28515625" width="128" height="44"/>
+    </elements>
+</model>
